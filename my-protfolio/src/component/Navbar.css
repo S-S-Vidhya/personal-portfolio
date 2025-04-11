@@ -1,0 +1,56 @@
+.navbar {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+  padding: 0 20px;
+}
+
+.navbar button {
+  margin: 0 15px;
+  padding: 8px 20px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  animation: slideIn 0.5s ease-out;
+  animation-fill-mode: backwards;
+}
+
+.navbar button:hover {
+  transform: translateY(-2px);
+}
+
+.navbar .MuiTypography-root {
+  font-weight: bold;
+  font-size: 1.5rem;
+  -webkit-text-fill-color: transparent;
+  animation: fadeIn 0.8s ease-out;
+}
+
+@media (max-width: 768px) {
+  .navbar .MuiToolbar-root {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 0;
+  }
+  
+  
+  .navbar button {
+    width: 100%;
+    margin: 5px 0;
+    text-align: left;
+    padding-left: 20px;
+  }
+  
+  .navbar .MuiTypography-root {
+    margin-bottom: 10px;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1}
+  }
