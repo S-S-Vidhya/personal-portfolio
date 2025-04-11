@@ -3,7 +3,7 @@ import { Box, Typography, Container, Grid, Card, CardMedia, CardContent } from '
 import './Projects.css'; 
 import smart from '../assets/vote.jpg'
 import echo from '../assets/echo.jpg'
-import bloom from '../assets/bloom.png'
+import ecommerce from '../assets/ecommerce webiste img.jpg'
 
 const Projects = () => {
   return (
@@ -44,11 +44,11 @@ const Projects = () => {
               />
               <CardContent sx={{ flex: 1 }}>
                 <Typography  sx={{ mt:2,color: '#7303c0' , fontSize:'18px',fontWeight:500 }}>
-                  Echo - Responsive Web Application
+                  Echo (UI Clone)
                 </Typography>
                 <Typography sx={{ color: 'black',fontSize:'15px'  }}>
-                  Developed a responsive web application using HTML, CSS, and Bootstrap.
-                  Technologies: HTML, CSS, Bootstrap
+                Echo UI is a responsive website clone created using HTML, CSS, and Bootstrap, 
+                replicating the layout and design of the original Echo landing page for practice and learning purposes.
                 </Typography>
               </CardContent>
             </Card>
@@ -57,18 +57,18 @@ const Projects = () => {
             <Card sx={{ height: '100%', width:'85%',display: 'flex', flexDirection: 'column' }}>
               <CardMedia
                 component="img"
-                image={bloom}
+                image={ecommerce}
                 alt="Project Image"
                 sx={{ height: 300 }}
                  className="card-media"
               />
               <CardContent sx={{ flex: 1 }}>
                 <Typography  sx={{ mt:2,color: '#7303c0' , fontSize:'18px',fontWeight:500 }}>
-                 Bloom
+                 Elite Spark-Ecommerce Website
                 </Typography>
                 <Typography sx={{ color: 'black',fontSize:'15px'  }}>
-                A fully functional e-commerce website for online shopping.
-                Technologies:HTML, React and MUI
+                Elite Spark is a stylish e-commerce website built to showcase and sell products online
+                with features like product listings, filters, wishlist, and cart functionality using React and MUI.
                 </Typography>
               </CardContent>
             </Card>
