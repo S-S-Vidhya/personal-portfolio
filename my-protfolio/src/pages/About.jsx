@@ -23,13 +23,10 @@ const About = () => {
             <Typography variant="h4" sx={{ color: '#7303c0', marginLeft:5, marginBottom: '10px',fontWeight:700 , fontSize:'35px' , animation: 'fadeInUp 1s ease-out forwards', animationDelay: '0.5s'}}>
               About Me
             </Typography>
-            <Typography className="section-text" sx={{ fontSize: '15.3px',marginLeft:5, color: 'black',marginTop:4,fontWeight:300, animation: 'fadeInUp 1s ease-out forwards', animationDelay: '0.5s' }}>
-              Hello! I’m Vidhya, a passionate Frontend Developer with a keen interest in building dynamic and user-friendly web applications. I have a Bachelor’s degree in Computer Applications (BCA)
-              and have honed my skills through a Full Stack Development course at AK Info Park.
-              I specialize in frontend technologies like HTML, CSS, JavaScript, React, MUI and Bootstrap. My Smart Voting System project highlights
-              my ability to integrate secure authentication, database management, and interactive UI components.
-              I consider myself a team player, always eager to learn and adapt to new challenges. Whether it’s
-              developing innovative solutions or enhancing user experiences, I’m always excited to take on new opportunities
+            <Typography className="section-text" sx={{letterSpacing:'0.8px',textAlign:'justify', fontSize: '15.3px',marginLeft:5, color: 'black',marginTop:4,fontWeight:300, animation: 'fadeInUp 1s ease-out forwards', animationDelay: '0.5s' }}>
+              Hello! I’m Vidhya, am a dedicated and detail-oriented Frontend Developer with a strong foundation in modern web technologies.
+              I completed a one-month internship at AK Info Park to build core web development skills and later enhanced my expertise through a structured three-month course in Frontend Development. During this period, I gained hands-on experience working with technologies like HTML, CSS, JavaScript, Bootstrap, React, and MUI, and developed several responsive web projects.
+              I am enthusiastic about creating clean, user-friendly interfaces and continuously learning to grow as a developer. I am currently seeking opportunities to contribute to innovative teams and bring digital ideas to life.
             </Typography>
             <Box sx={{ marginTop: '20px' ,marginBottom:10,animation: 'fadeInUp 1s ease-out forwards', animationDelay: '0.5s'}}>
               <Button

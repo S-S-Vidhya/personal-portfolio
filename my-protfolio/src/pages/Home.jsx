@@ -142,7 +142,9 @@ const Home = () => {
               maxWidth: '100%',
               height: 'auto',
               animation: 'scaleIn 1s',
+              transition: 'all 0.3s ease-in-out'
             }}
+
           />
         </Grid>
       </Grid>
