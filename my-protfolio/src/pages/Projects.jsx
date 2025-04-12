@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, Container, Grid, Card, CardMedia, CardContent } from '@mui/material';
+import { Box, Typography, Container, Grid, Card, CardMedia, CardContent} from '@mui/material';
 import './Projects.css'; 
 import smart from '../assets/vote.jpg'
 import echo from '../assets/echo.jpg'
@@ -50,6 +50,9 @@ const Projects = () => {
                 Echo UI is a responsive website clone created using HTML, CSS, and Bootstrap, 
                 replicating the layout and design of the original Echo landing page for practice and learning purposes.
                 </Typography>
+                <a href="https://github.com/S-S-Vidhya/personal-portfolio" target="_blank" rel="noopener noreferrer">
+                 View on GitHub
+                </a>
               </CardContent>
             </Card>
           </Grid>
@@ -70,6 +73,9 @@ const Projects = () => {
                 Elite Spark is a stylish e-commerce website built to showcase and sell products online
                 with features like product listings, filters, wishlist, and cart functionality using React and MUI.
                 </Typography>
+                <a href="https://github.com/S-S-Vidhya/E-Commerce-website" target="_blank" rel="noopener noreferrer">
+                 View on GitHub
+                </a>
               </CardContent>
             </Card>
           </Grid>
