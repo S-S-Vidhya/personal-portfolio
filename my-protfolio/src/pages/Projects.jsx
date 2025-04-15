@@ -1,9 +1,10 @@
 import React from 'react';
-import { Box, Typography, Container, Grid, Card, CardMedia, CardContent} from '@mui/material';
+import { Box, Typography, Container, Grid, Card, CardMedia, CardContent,Button} from '@mui/material';
 import './Projects.css'; 
 import smart from '../assets/vote.jpg'
 import echo from '../assets/echo.jpg'
 import ecommerce from '../assets/ecommerce webiste img.jpg'
+import todo from '../assets/todo img.png'
 
 const Projects = () => {
   return (
@@ -13,7 +14,7 @@ const Projects = () => {
           My Projects
         </Typography>
         <Grid container spacing={4} sx={{ mt:5,animation: 'fadeIn 2s' ,display:'flex',justifyContent:'center',ml:0.5}}>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid item xs={12} sm={6} md={6}>
             <Card sx={{ height: '100%',width:'85%', display: 'flex', flexDirection: 'column' }}>
               <CardMedia
                 component="img"
@@ -33,7 +34,7 @@ const Projects = () => {
               </CardContent>
             </Card>
           </Grid>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid item xs={12} sm={6} md={6}>
             <Card sx={{ height: '100%', width:'85%',display: 'flex', flexDirection: 'column' }}>
               <CardMedia
                 component="img"
@@ -56,7 +57,7 @@ const Projects = () => {
               </CardContent>
             </Card>
           </Grid>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid item xs={12} sm={6} md={6}>
             <Card sx={{ height: '100%', width:'85%',display: 'flex', flexDirection: 'column' }}>
               <CardMedia
                 component="img"
@@ -76,6 +77,31 @@ const Projects = () => {
                 <a href="https://github.com/S-S-Vidhya/E-Commerce-website" target="_blank" rel="noopener noreferrer">
                  View on GitHub
                 </a>
+              </CardContent>
+            </Card>
+          </Grid>
+          <Grid item xs={12} sm={6} md={6}>
+            <Card sx={{ height: '100%', width:'85%',display: 'flex', flexDirection: 'column' }}>
+              <CardMedia
+                component="img"
+                image={todo}
+                alt="Project Image"
+                sx={{ height: 300 }}
+                 className="card-media"
+              />
+              <CardContent sx={{ flex: 1 }}>
+                <Typography  sx={{ mt:2,color: '#7303c0' , fontSize:'18px',fontWeight:500 }}>
+               TodoList
+                </Typography>
+                <Typography sx={{ color: 'black',fontSize:'15px'  }}>
+                Elite Spark is a stylish e-commerce website built to showcase and sell products online
+                with features like product listings, filters, wishlist, and cart functionality using React and MUI.
+                </Typography>
+              
+                <a href="https://github.com/S-S-Vidhya/TodoList.git" target="_blank" rel="noopener noreferrer">
+                 View on GitHub
+                </a>
+             
               </CardContent>
             </Card>
           </Grid>
