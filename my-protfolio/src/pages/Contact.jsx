@@ -79,7 +79,7 @@ const Contact = () => {
                 <Link href="https://github.com/vidhyaselvan" target="_blank" rel="noopener noreferrer" sx={{ mr: 2 }}>
                   <GitHubIcon sx={{ color: 'black' }} />
                 </Link>
-                <Link href="https://www.instagram.com/vidhyaselvan/" target="_blank" rel="noopener noreferrer" sx={{ mr: 2 }}>
+                <Link href="https://www.instagram.com/_.free_birdie/" target="_blank" rel="noopener noreferrer" sx={{ mr: 2 }}>
                   <img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" alt="Instagram" style={{ width: 24, height: 24 }} />
                 </Link>
               </Box>

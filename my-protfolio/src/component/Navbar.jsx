@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <AppBar position="static" sx={{  backgroundColor: '#7303c0',boxShadow:'box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15)',padding:' padding: 0 20px',
+    <AppBar position="sticky" sx={{ backgroundColor: '#7303c0',boxShadow:'box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15)',padding:' padding: 0 20px',
       borderBottom:'1px solid rgba(5, 4, 4, 0.18)'}}>
       <Toolbar>
         <Typography variant="h5" component="div" sx={{ flexGrow: 1,  color:'white', animation: 'fadeIn 2s ease-out',fontWeight: '100', fontSize: '1.5rem' }}>
