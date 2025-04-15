@@ -54,7 +54,7 @@ const Home = () => {
                 A Passionate&nbsp;
                 <span style={{ color: "#7303c0", fontSize: { xs: '22px', md: '28px' }, fontWeight: '600' }}>
                   <Typewriter
-                    words={["Frontend Developer", "Web Developer"]}
+                    words={["Frontend Developer", "Reactjs Developer"]}
                     cursor
                     cursorStyle='|'
                     loop
